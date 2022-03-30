@@ -31,7 +31,7 @@ namespace MainApplication
     
             if (expenseDate== string.Empty || expenseItem == string.Empty ||expensePrice== string.Empty || email == string.Empty || time == string.Empty)
             {
-                MessageBox.Show("Please enter all the fields!");
+                MessageBox.Show("Please enter all the  fields!");
                 return;
             }
             else
